@@ -26,7 +26,12 @@ const Quiz = () => {
             question: "What is the largest river in the world?",
             options: ["Amazon", "Nile", "Yangtze", "Mississippi"],
             answer: "Nile"
-        }
+        },
+        {
+            question: "What is the largest state of India?",
+            options: ["Uttarakhand", "Madhya Pradesh", "U.P", "Rajasthan"],
+            answer: "Rajasthan"
+        },
     ];
 
     const handleAnswer = (userAnswer) => {
